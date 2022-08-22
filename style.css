@@ -55,10 +55,14 @@ body .mainCard {
   gap: 3.2rem;
 
   padding: 4.8rem 6.4rem 6.4rem;
+
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
 }
 
 .mainCard h1 {
   height: fit-content;
+  color: rgba(12, 52, 64, 1);
 
   font-style: normal;
   font-weight: 700;
@@ -84,6 +88,9 @@ body .mainCard {
 
 .mainCard form fieldset input {
   background: #dce2e9;
+
+  border: 1px solid #02799d;
+  border-radius: 4px;
 
   padding: 1.6rem;
   width: min(30rem, 90%);
