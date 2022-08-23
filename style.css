@@ -49,7 +49,6 @@ body .mainCard {
   background: rgba(255, 255, 255, 1);
   text-align: left;
 
-  height: 44rem;
   width: min(42.8rem, 80%);
   display: grid;
   gap: 3.2rem;
@@ -60,7 +59,7 @@ body .mainCard {
   border-radius: 6px;
 }
 
-.mainCard h1 {
+.title {
   height: fit-content;
   color: rgba(12, 52, 64, 1);
 
@@ -145,12 +144,6 @@ body .mainCard {
   cursor: pointer;
 }
 
-.popUpCard h1 {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 40px;
-}
 
 @media (max-width: 372px) {
   .popUpCard svg {
