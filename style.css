@@ -118,38 +118,41 @@ body .mainCard {
   gap: 0.8rem;
 }
 
+.popUpCardWrapper {
+  background: rgba(0, 0, 0, 0.7);
+
+
+  position: absolute;
+  inset: 0;
+  
+  display: grid;
+  place-items: center;
+}
+
 .popUpCard {
   background: #ffffff;
 
-  height: 152px;
-  width: min(363px, 95%);
+  height: 15.2rem;
+  width: min(36.3rem, 95%);
 
   padding: 4.8rem 6.4rem 6.4rem;
 
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 
-  border-radius: 6px;
+  border-radius: .6rem;
   border: solid black;
 
   text-align: center;
 
-  position: fixed;
+  position: relative;
   display: grid;
   align-content: center;
 }
-.popUpCard svg {
-  position: relative;
-  top: -7px;
-  right: -263px;
+.popUpCard button {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
   cursor: pointer;
-}
-
-
-@media (max-width: 372px) {
-  .popUpCard svg {
-    position: relative;
-    top: -5px;
-    right: -197px;
-    cursor: pointer;
-  }
+  background: none;
+  
 }
