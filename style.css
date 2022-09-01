@@ -22,11 +22,7 @@ body {
   place-items: center;
 }
 
-body .hide {
-  display: none;
-}
-
-body span {
+body .textError {
   background: #f03e3e;
 
   width: 100%;
@@ -43,6 +39,18 @@ body span {
 
   position: fixed;
   top: 0;
+
+  visibility: hidden;
+  opacity: 0;
+
+  transform: translateY(-5rem);
+
+  transition: all .6s;
+}
+body .textError.open{
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0rem);
 }
 
 body .mainCard {
@@ -127,6 +135,13 @@ body .mainCard {
   
   display: grid;
   place-items: center;
+
+  visibility: hidden;
+  opacity: 0;
+}
+.popUpCardWrapper.open{
+visibility: visible;
+opacity: 1;
 }
 
 .popUpCard {
