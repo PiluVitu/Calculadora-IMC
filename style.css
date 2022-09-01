@@ -92,7 +92,7 @@ body .mainCard {
   border-radius: 4px;
 
   padding: 1.6rem;
-  width: min(30rem, 90%);
+  width: 100%;
   height: 5.2rem;
 }
 
@@ -100,7 +100,7 @@ body .mainCard {
   font-family: 'Roboto', sans-serif;
 
   height: 5.2rem;
-  width: min(30rem, 90%);
+  width: 100%;
   border-radius: 0.4rem;
   padding: 1.6rem;
 
