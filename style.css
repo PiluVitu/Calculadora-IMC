@@ -124,6 +124,8 @@ body .mainCard {
   justify-content: center;
   align-items: center;
   gap: 0.8rem;
+
+  cursor: pointer;
 }
 
 .popUpCardWrapper {
