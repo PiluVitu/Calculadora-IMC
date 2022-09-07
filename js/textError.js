@@ -5,8 +5,8 @@ const showAndCloseTextError =  {
   close() { mainPage.textError.classList.remove('open')}
 }
 const inputsFocusToCloseTextError = () => {
-  mainPage.weight.addEventListener('focus', showAndCloseTextError.close)
-  mainPage.height.addEventListener('focus', showAndCloseTextError.close)
+  mainPage.weight.oninput = () => showAndCloseTextError.close()
+  mainPage.height.oninput = () => showAndCloseTextError.close()
 }
 
 export {showAndCloseTextError, inputsFocusToCloseTextError}
